@@ -32,7 +32,7 @@
                     label: labels[i % labels.length]
                 });
             });
-
-            var markerCluster = new MarkerClusterer(map, markers,
+            //was >> var markerCluster = new MarkerClusterer(map, markers, ..) (but wasnt read)??
+            new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
         }
