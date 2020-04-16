@@ -1,4 +1,5 @@
         function initMap() {
+            // map a new google map to my div with id"map"
             var map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 3,
                 center: { //set map to start on europe
